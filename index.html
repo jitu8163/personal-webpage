@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Raika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            backface-visibility: visible;
+            background-blend-mode: color;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgb(171 127 127 /13%);
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #444;
+            display: inline-block;
+        }
+
+        .contact-info,
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact-info li,
+        .skills li {
+            margin: 5px 0;
+        }
+
+        .resume-content {
+            white-space: pre-line;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+            /* Hidden by default */
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #444;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+    <script>
+        function toggleResume() {
+            var resumeContent = document.getElementById('resume-content');
+            if (resumeContent.style.display === 'none') {
+                resumeContent.style.display = 'block';
+            } else {
+                resumeContent.style.display = 'none';
+            }
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jitendra Raika</h1>
+        <h2>Machine Learning Intern</h2>
+
+        <div class="section">
+            <h3 class="section-title">About Me</h3>
+            <p>I am a motivated and enthusiastic student with a strong academic background and a passion for Data
+                Science & Machine Learning. Through coursework and extracurricular activities, I have developed
+                excellent skills such as Python, Machine Learning, Data Visualization, Data Cleaning and Preprocessing,
+                communication, problem-solving, etc. I am eager to apply my knowledge and skills in a professional
+                setting, contribute to your organization’s objectives, and learn from experienced professionals in the
+                field. I am seeking an internship opportunity where I can further hone my abilities and make meaningful
+                contributions to the team.</p>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Contact</h3>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:jituraika8163@gmail.com "
+                        style="color: #f3f3f2;text-decoration-color: #00ef1b;"> jituraika8163@gmail.com
+                    </a></li>
+                <li>Phone: +91 797-620-2595</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/jitendraraika8163"
+                        style="color: #f3f3f2;text-decoration-color: hsl(122, 100%, 60%);">linkedin.com/in/jitendraraika8163</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Resume</h3>
+            <div class="button-container">
+                <a href="Jitendra Raika SBCET.pdf" target="_blank">
+                    <button class="button">View Resume</button>
+                </a>
+                <a href="Jitendra Raika SBCET.pdf" download="Jitendra_Raika_Resume.pdf">
+                    <button class="button">Download Resume</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Skills</h3>
+            <ul class="skills">
+                <li>Python</li>
+                <li>R Programming</li>
+                <li>Communication</li>
+                <li>Team Leading</li>
+                <li>Data Visualization</li>
+                <li>Design Pattern</li>
+                <li>Predictive Analytics</li>
+                <li>Data Modeling</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>SciKit-Learn</li>
+                <li>Matplotlib</li>
+                <li>Jupyter Notebook</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
